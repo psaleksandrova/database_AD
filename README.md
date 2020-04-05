@@ -11,12 +11,19 @@
 
 ## Пререквизиты
 * Для запуска pdfminer.ipynb необходима установка пакета pdfminer.
-Далее необходимоапустить из командной строки команду 
+
+Далее необходимо pапустить из командной строки команду 
+
 $ python path_to_pdf2txt.py -o path_to_xmlfile path_to_pdffile,
+
 где pdf2txt.py - скрипт, который скачается при установке pdfminer.py, 
+
 path_to_xmlfile - путь и название файла для результатов,
+
 path_to_pdffile - путь к пдф файлу словаря
+
 например:
+
 $ python /usr/local/bin/pdf2txt.py -o res.xml AS_vol1.pdf
 
 * Для запуска split_val.ipynb (text_proc.py) необходма установка пакета bs4.
